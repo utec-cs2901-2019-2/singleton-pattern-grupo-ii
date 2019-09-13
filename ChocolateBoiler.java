@@ -12,11 +12,11 @@ public class ChocolateBoiler {
                 result = instance;
                 if (result == null) {
                     instance = result = new ChocolateBoiler();
-                    System.out.println("Thread sent");
+                    System.out.println("Thread enviado");
                 }
             }
         } else {
-            System.out.println("Thread error");
+            System.out.println("Thread regresado");
         }
         return result;
     }
